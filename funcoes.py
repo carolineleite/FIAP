@@ -18,7 +18,6 @@ somar()
 
 # Função de subtrair
 def subtrair(a, b):
-
     subtrai = a - b
 
     print(subtrai)
@@ -30,8 +29,9 @@ subtrair(valor1, valor2)
 
 
 # Função de divisão
-def divisao(a, b):
-    dividir = a / b
-    return dividir
+def dividir(a, b):
+    divisao = a / b
+    return divisao
 
-print(divisao(7, 3))
+
+print(dividir(7, 3))
