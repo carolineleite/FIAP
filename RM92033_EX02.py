@@ -4,7 +4,7 @@ media_impar = 0
 media_par = 0
 
 for x in range(1, 50, 2):
-    nota = int(input(f'VOCÊ ESTÁ DIGITANDO AS NOTAS DOS ALUNOS IMPARES.\nPOR FAVOR, INSIRA A NOTA DO ALUNO DE NÚMERO {x}? '))
+    nota = float(input(f'VOCÊ ESTÁ DIGITANDO AS NOTAS DOS ALUNOS IMPARES.\nPOR FAVOR, INSIRA A NOTA DO ALUNO DE NÚMERO {x}? '))
     media_impar = media_impar + nota
     contador = contador + 1
 
@@ -12,7 +12,7 @@ media_impar = media_impar / contador
 contador = 0
 
 for x in range(2, 51, 2):
-    nota = int(input(f'VOCÊ ESTÁ DIGITANDO AS NOTAS DOS ALUNOS PARES.\nPOR FAVOR, INSIRA A NOTA DO ALUNO DE NÚMERO {x}? '))
+    nota = float(input(f'VOCÊ ESTÁ DIGITANDO AS NOTAS DOS ALUNOS PARES.\nPOR FAVOR, INSIRA A NOTA DO ALUNO DE NÚMERO {x}? '))
     media_par = media_par + nota
     contador = contador + 1
 
